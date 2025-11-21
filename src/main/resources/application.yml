@@ -7,7 +7,12 @@ spring:
     config:
       enabled: true
       fail-fast: true
-
-
+      request-read-timeout: 10000
+      request-connect-timeout: 10000
+      retry:
+        max-attempts: 15
+        initial-interval: 2000
+        multiplier: 1.5
+        max-interval: 10000
 
 
