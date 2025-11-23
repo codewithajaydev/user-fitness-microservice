@@ -14,8 +14,11 @@ spring:
         initial-interval: 2000
         multiplier: 1.5
         max-interval: 10000
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> cd69d5bebe03198f8ddd92fd79d7ceb6ec665706
 
 
